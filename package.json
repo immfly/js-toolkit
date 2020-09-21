@@ -1,0 +1,53 @@
+{
+  "name": "@immfly/js-bash-kit",
+  "author": "Albert Pérez Farrés",
+  "version": "1.0.5",
+  "description": "bash utils kit",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "BABEL_ENV=production babel src -d lib",
+    "test:dev": "jest --watchAll",
+    "test": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "linter-fix": "standard --fix",
+    "linter-check": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/immfly/js-bash-kit.git"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "js",
+    "bash",
+    "utils",
+    "commands",
+    "file",
+    "write"
+  ],
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "./src/**/*.js",
+      "!**/**/index.js",
+      "!**/node_modules/**",
+      "!**/coverage/**"
+    ],
+    "coverageDirectory": "./coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "babel-preset-minify": "^0.5.1",
+    "coveralls": "^3.1.0",
+    "jest": "^26.4.2",
+    "standard": "^14.3.4"
+  }
+}
