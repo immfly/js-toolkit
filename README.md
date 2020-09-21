@@ -7,7 +7,7 @@ This package exports modules used through `js` immfly projects.
 
 ## Installation
 ```
-npm install --save @immfly/js-tools-kit
+npm install --save-dev @immfly/js-tools-kit
 ```
 
 ## Tools

@@ -1,8 +1,8 @@
 {
   "name": "@immfly/js-tools-kit",
   "author": "Albert Pérez Farrés",
-  "version": "1.0.5",
-  "description": "Javascript tools",
+  "version": "1.0.0",
+  "description": "Javascript tools kit",
   "main": "lib/index.js",
   "scripts": {
     "build": "BABEL_ENV=production babel src -d lib",
