@@ -1,13 +1,13 @@
-![npm](https://img.shields.io/npm/v/@immfly/js-tool-kit.svg) [![Build Status](https://travis-ci.org/immfly/js-tool-kit.svg?branch=master)](https://travis-ci.org/immfly/js-tool-kit) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+![npm](https://img.shields.io/npm/v/@immfly/js-toolkit.svg) [![Build Status](https://travis-ci.org/immfly/js-toolkit.svg?branch=master)](https://travis-ci.org/immfly/js-toolkit) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
-# js-tool-kit
+# js-toolkit
 <img src='https://lh3.googleusercontent.com/proxy/ePay-1VRq51XVxc-8gEttC4p8AZ22Vn-Dq4YpwnnoDba6PboVWyIYGMLOZJ1f6GohNJSnkZx5BNradpSem_LPcTH9x9z7u29vwEx1M216i1chviNeA' />
 
 This package exports modules used through `js` immfly projects.
 
 ## Installation
 ```
-npm install --save-dev @immfly/js-tool-kit
+npm install --save-dev @immfly/js-toolkit
 ```
 
 ## tool
@@ -15,7 +15,7 @@ npm install --save-dev @immfly/js-tool-kit
 ### Shell
 Allows to run bash commands.
 ```js
-const { Shell } = require('@immfly/js-tool-kit' )
+const { Shell } = require('@immfly/js-toolkit' )
 
 ...
 await Shell.execute('echo "Hellow"')
@@ -24,7 +24,7 @@ await Shell.execute('echo "Hellow"')
 ### FileWriter
 Allows to write files given the output file and its content.
 ```js
-const { FileWriter } = require('@immfly/js-tool-kit' )
+const { FileWriter } = require('@immfly/js-toolkit' )
 
 ...
 await FileWriter.write('file.txt', '::content::'))
@@ -33,7 +33,7 @@ await FileWriter.write('file.txt', '::content::'))
 ### EnvFiler
 Allows generate `.env` files given the output file and the data to generate.
 ```js
-const { EnvFiler } = require('@immfly/js-tool-kit' )
+const { EnvFiler } = require('@immfly/js-toolkit' )
 
 ...
 await EnvFiler.build({
