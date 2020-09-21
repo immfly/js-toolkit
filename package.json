@@ -2,7 +2,7 @@
   "name": "@immfly/js-tools-kit",
   "author": "Albert Pérez Farrés",
   "version": "1.0.5",
-  "description": "bash utils kit",
+  "description": "Javascript tools",
   "main": "lib/index.js",
   "scripts": {
     "build": "BABEL_ENV=production babel src -d lib",
@@ -20,6 +20,8 @@
   "keywords": [
     "js",
     "bash",
+    "shell",
+    "env",
     "utils",
     "commands",
     "file",
