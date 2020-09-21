@@ -5,6 +5,11 @@
 
 This package exports modules used through `js` immfly projects.
 
+## Installation
+```
+npm install --save @immfly/js-tools-kit
+```
+
 ## Shell
 Allows to run bash commands.
 ```js
