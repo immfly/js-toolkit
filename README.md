@@ -10,7 +10,9 @@ This package exports modules used through `js` immfly projects.
 npm install --save @immfly/js-tools-kit
 ```
 
-## Shell
+## Tools
+
+### Shell
 Allows to run bash commands.
 ```js
 const { Shell } = require('@immfly/js-tools-kit' )
@@ -19,7 +21,7 @@ const { Shell } = require('@immfly/js-tools-kit' )
 await Shell.execute('echo "Hellow"')
 ```
 
-## FileWriter
+### FileWriter
 Allows to write files given the output file and its content.
 ```js
 const { FileWriter } = require('@immfly/js-tools-kit' )
@@ -28,7 +30,7 @@ const { FileWriter } = require('@immfly/js-tools-kit' )
 await FileWriter.write('file.txt', '::content::'))
 ```
 
-## EnvFiler
+### EnvFiler
 Allows generate `.env` files given the output file and the data to generate.
 ```js
 const { EnvFiler } = require('@immfly/js-tools-kit' )
