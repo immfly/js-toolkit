@@ -1,5 +1,5 @@
 {
-  "name": "@immfly/js-bash-kit",
+  "name": "@immfly/js-tools-kit",
   "author": "Albert Pérez Farrés",
   "version": "1.0.5",
   "description": "bash utils kit",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/immfly/js-bash-kit.git"
+    "url": "https://github.com/immfly/js-tools-kit.git"
   },
   "license": "MIT",
   "publishConfig": {
