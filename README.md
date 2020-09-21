@@ -40,6 +40,7 @@ The result of this example whould be a file named `file.txt` with this content:
 ```bash
 DATA1=::data1
 DATA2=::data2
+
 ```
 
 
