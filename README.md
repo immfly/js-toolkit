@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/@immfly/js-bash-kit.svg) [![Build Status](https://travis-ci.org/sonofjavascript/js-bash-kit.svg?branch=master)](https://travis-ci.org/sonofjavascript/js-bash-kit) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+![npm](https://img.shields.io/npm/v/@immfly/js-bash-kit.svg) [![Build Status](https://travis-ci.org/immfly/js-bash-kit.svg?branch=master)](https://travis-ci.org/immfly/js-bash-kit) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 # js-bash-kit
 This package exports modules used through `js` immfly projects.

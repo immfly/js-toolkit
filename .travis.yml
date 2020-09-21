@@ -5,7 +5,7 @@ node_js:
 
 jobs:
   include:
-    - stage: Build and test
+    - stage: Build
       script:
         - npm run linter-check
     - stage: Release npm package
