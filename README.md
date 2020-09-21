@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/@immfly/js-bash-kit.svg) [![Build Status](https://travis-ci.org/sonofjavascript/js-bash-kit.svg?branch=master)](https://travis-ci.org/sonofjavascript/js-bash-kit) [![Coverage Status](https://coveralls.io/repos/github/immfly/js-bash-kit/badge.svg)](https://coveralls.io/github/sonofjavascript/js-bash-kit) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+![npm](https://img.shields.io/npm/v/@immfly/js-bash-kit.svg) [![Build Status](https://travis-ci.org/sonofjavascript/js-bash-kit.svg?branch=master)](https://travis-ci.org/sonofjavascript/js-bash-kit) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 # js-bash-kit
 

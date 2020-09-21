@@ -1,7 +1,5 @@
 /src
 /node_modules
-/coverage
-.coveralls.yml
 .travis.yml
 .gitignore
 babel.config.js

@@ -1,6 +1,5 @@
 /lib
 /node_modules
-/coverage
 .DS_Store
 package
 *.tgz
