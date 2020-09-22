@@ -3,7 +3,7 @@
 # js-toolkit
 <img src='https://wallpaperaccess.com/full/1880033.jpg' />
 
-This package exports modules used through `js` immfly projects.
+This package exports utils modules used through `javascript` projects.
 
 ## Installation
 ```
