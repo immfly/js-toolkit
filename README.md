@@ -1,7 +1,7 @@
 ![npm](https://img.shields.io/npm/v/@immfly/js-toolkit.svg) [![Build Status](https://travis-ci.org/immfly/js-toolkit.svg?branch=master)](https://travis-ci.org/immfly/js-toolkit) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 # js-toolkit
-<img src='https://lh3.googleusercontent.com/proxy/ePay-1VRq51XVxc-8gEttC4p8AZ22Vn-Dq4YpwnnoDba6PboVWyIYGMLOZJ1f6GohNJSnkZx5BNradpSem_LPcTH9x9z7u29vwEx1M216i1chviNeA' />
+<img src='https://wallpaperaccess.com/full/1880033.jpg' />
 
 This package exports modules used through `js` immfly projects.
 
